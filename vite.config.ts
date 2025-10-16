@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/V2/", // 👈 لازم يطابق اسم الريبو بالضبط
+  base: "/V2/", // 👈 مهم جداً لموقع GitHub Pages
 
   server: {
     host: "::",
